@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+}
+
+.profile {
+    width: 175px;
+
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#eb60eb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+#welcome h1{
+    margin-left:20px
+}
+
+.links:hover {
+    background-color: blueviolet;
+}
+
+
+
+#game1 {
+    margin-left: 300px;
+    height: 6px;
+    background-color: #000;
+    margin-top: auto;
+    position: relative;
+}
+
+#game2 {
+    margin-left: 300px;
+    height: 6px;
+    background-color: #000;
+    margin-top: auto;
+    position: relative;
+    width: 100%;
+}
+
+.chatbot {
+    width: 100%;
+    height: 500px;
+    margin-left: 250px;
+}
+
+.video {
+    width: 80%;
+    height: 600px;
+    margin-left: 100px;
+}
+
+img {
+    transition: transform 0.8s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+.chatbot {
+    margin-left: 500px;
+    width: 400px;
+    height: 400px;
+}
+
+.app 
+{
+    width: 100%;
+    height:700px;    
+    margin-left: 100px;
+}
+
+.videos{
+   margin-left: 200px; 
+}
+
+
+.links {
+    font-family: fantasy;
+    display: inline;
+    font-size: 20px;
+    float: left;
+    color: #eb60eb;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+
+}
+
+#menu {
+    border: 5px dotted black;
+    display: table-cell;
+    height: 70px;
+    width: 1500px;
+    background-color: navy;
+    position: fixed;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    margin-left: 100px;
+    margin-top: 5px;
+    border: 1px dashed black;
+}
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: green !important;
+}
+
+#contact {
+    background: firebrick;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+
+.contact_1 a {
+    color: white;
+    text-shadow: none;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: forestgreen;
+    text-decoration: underline;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+h1 {
+
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-left: 600px;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace
+}
+
+#bio {
+
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+#bio:hover {
+    text-decoration: underline;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 200px;
+    margin: 8px;
+    margin-left: 550px;
+}
+
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+
+}
+
+p:hover {
+
+    text-shadow: 5px 5px #e3e3e3;
+}
+
+.parallax-inner {
+
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.article {
+    margin-left: 500px;
+}
